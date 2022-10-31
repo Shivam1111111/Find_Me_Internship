@@ -1,0 +1,17 @@
+#Reviewheading{
+    /* font-size: 27px; */
+    text-align: center;
+    color: rgb(232, 160, 16);
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+#comments{
+    height:50px;
+}
+
+@media screen and (max-width : 750px){
+    #Reviewheading{
+        font-size: 25px;
+    }
+}

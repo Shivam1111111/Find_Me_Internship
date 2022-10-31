@@ -1,0 +1,190 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.45)), url('../../../public/image/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.homeContainer{
+    margin-top:100px;
+}
+
+.companyListContainer{
+    overflow: scroll;
+    margin: auto;
+    width : 70vw;
+    height: 70vh;
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    padding : 10px;
+    margin-bottom: 70px;
+}
+
+.companyCard{
+    height : 130px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgb(0, 0, 0);
+    background-color: rgba(218, 214, 207, 0.652);
+    backdrop-filter: blur(3px);
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+
+#homeHeading{
+    text-align: center;
+    color: rgb(232, 160, 16);
+    /* color : white; */
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width : 1050px){
+
+    .companyListContainer{
+        display: block;
+    }
+    .companyCard{
+        height : 120px;
+        margin : 10px;
+    }
+    .compLogo{
+        margin : auto;
+    }
+    .imgClass{
+        height : 50px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width : 550px){
+    .companyListContainer{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        width : 90vw;
+    }
+    .companyCard{
+        /* height : 150px; */
+        margin : 0px;
+    }
+    .companyName{
+        font-size: 15px;
+    }
+    .compRating{
+        font-size: 15px;
+    }
+    .compContact{
+        font-size: 15px;
+    }
+    .compLogo{
+        margin : auto;
+    }
+    .imgClass{
+        height : 60px !important;
+        border-radius: 10px;
+    }
+}
+
+.detailCard{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin:10px;
+    text-align: center;
+}
+
+.companyCard {
+    transition: transform .3s ease;
+}
+
+.companyCard:hover{
+    transform: scale(1.04);
+}
+
+.compRating{
+    padding : 0px 10px;
+    border: 2px solid rgba(32, 128, 223, 0.997);
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgba(32, 128, 223, 0.684);
+    color: white;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.companyName{
+    font-weight:bolder;
+    color : rgb(11, 10, 10)
+}
+
+.imgClass{
+    height : 85px;
+    border-radius: 10px;
+}
+
+.compLogo{
+    margin : auto;
+}
+/* Header  */
+
+#homeHeading{
+    color: rgb(245, 169, 18);
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+} 
+
+#serachBar{
+    height: 30px;
+    width : 200px;
+    font-size: 15px;
+}
+
+.listHeader{
+    /* margin-top: 110px; */
+    margin-bottom: 20px;
+    position: static;
+    display : flex;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#spanLogo{
+    padding: 8px;
+    padding-bottom: 8.5px;
+    background-color: darkgray;
+}
+
+.compLocation{
+    display: none;
+}
+
+@media screen and (max-width : 550px){
+    .listHeader{
+        display : block;
+        text-align: center;
+    }
+    #serachBar{
+        height: 28px;
+        width : 175px;
+        font-size: 13px;
+    }
+    #spanLogo{
+        padding: 6px;
+        padding-bottom: 7.55px;
+        background-color: darkgray;
+    }
+    #homeHeading{
+        color: rgb(245, 169, 18);
+        text-shadow: 3px 3px 4px rgb(0, 0, 0);
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+    }     
+}

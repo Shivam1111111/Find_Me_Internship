@@ -1,0 +1,127 @@
+
+.CompContainer{
+    width : 50%;
+    margin : auto;
+    padding :10px 35px;
+    margin-top: 140px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgb(0, 0, 0);
+    backdrop-filter: blur(3px);
+    margin-bottom: 80px;
+}
+
+#Compheading{
+    text-align: center;
+    color: rgb(232, 160, 16);
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Compinputfield{ 
+    width : 75%;
+    height: 23px;
+    border-radius: 5px;
+    border : none;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    background-color: rgb(236, 236, 236);
+    font-size: 20px;
+}
+
+.Comptextfield{ 
+    width : 75%;
+    height: 23px;
+    border-radius: 5px;
+    border : none;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    background-color: rgb(236, 236, 236);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ComplableClass{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color : white;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+.CompbuttonClass{
+    width: 75px;
+    font-size: large;
+    font-weight:300;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+
+.Compbtndiv{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.CompbuttonClass:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+@media screen and (max-width : 750px){
+    .CompContainer{
+        width : 75vw;
+        margin : auto;
+        padding :10px 35px;
+        margin-top: 140px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        box-shadow: 3px 3px 7px rgb(0, 0, 0);
+        backdrop-filter: blur(3px);
+        margin-bottom: 100px;
+
+    }
+    .Compinputfield{ 
+        width : 100%;
+        height: 23px;
+        border-radius: 5px;
+        border : none;
+        box-shadow: 2px 2px 4px rgb(0, 0, 0);
+        background-color: rgb(236, 236, 236);
+        font-size: 18px;
+    }
+    .Comptextfield{ 
+        width : 100%;
+        height: 23px;
+        border-radius: 5px;
+        border : none;
+        box-shadow: 2px 2px 4px rgb(0, 0, 0);
+        background-color: rgb(236, 236, 236);
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .ComplableClass{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color : white;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    }
+
+    #Compheading{
+        font-size : 28px;
+    }
+
+    #heading{
+        font-size : 28px;
+    }
+}
+
+#payInputText{
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+#description{
+    height:50px;
+}

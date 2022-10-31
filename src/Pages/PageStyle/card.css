@@ -1,0 +1,160 @@
+.cardContainer{
+  color : white;
+  margin : auto;
+  margin-top: 105px;
+  width : 60vw;
+  height : 73vh;
+  background-color: rgba(218, 214, 207, 0.652);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  padding : 20px;
+  overflow: auto;
+  box-shadow: 4px 4px 7px rgb(0, 0, 0);
+}
+
+.cmpLable{
+  color : black;
+  font-size : 22px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logoClass{
+  height : 130px;
+  border-radius: 10px;
+}
+
+.compHeading{
+  color: rgb(232, 160, 16);
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 3px 3px 6px rgb(0, 0, 0);
+}
+
+.internshipDtl{
+  padding: 5px 50px;
+}
+.detailDiv{
+  padding: 5px 50px;
+}
+
+.firstDiv{
+ padding: 10px;
+}
+
+.secondDiv{
+  padding: 10px;
+}
+
+#ratingDiv{
+    text-align: center;
+    border: 2px solid rgba(32, 128, 223, 0.997);
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(32, 128, 223, 0.684);
+    color: white;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.ansClass{
+  font-size: 20px;
+  padding: 0px 7px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.CardButtonClass{
+  width: 70px;
+  font-size: 17px;
+  font-weight: 300;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.CardBtnDiv{
+  display: flex;
+  justify-content: space-around;
+  margin: 22px 0px;
+}
+
+.CardButtonClass:hover{
+  background-color: rgb(187, 187, 187);
+}
+
+#editBtnId{
+  display:none;
+}
+
+#deleteBtnId{
+  display:none;
+}
+
+@media screen and (max-width:1100px){
+
+  .CardButtonClass{
+    width : 60px;
+    font-size: 13px;
+  }
+
+  .compHeading{
+    font-size: 25px;
+  }
+
+  .logoClass{
+    height : 100px;
+    border-radius: 10px;
+  }
+
+  .firstDiv{
+    padding:0px;
+  }
+   
+  .secondDiv{
+    padding:0px;
+  }
+
+  .internshipDtl{
+    padding: 3px 30px;
+  }
+  .detailDiv{
+    padding: 3px 30px;
+  }
+  
+}
+
+@media screen and (max-width:800px){
+
+  .cardContainer{
+    display:block;
+    box-sizing: border-box;
+    width : 85vw;
+    background-color: rgba(187, 187, 187, 0.652);
+    backdrop-filter: blur(3px)
+  }
+
+  .compHeading{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .logoClass{
+    height: 60px;
+  }
+
+  .logoDiv{
+    display : flex;
+    justify-content: center;
+  }
+
+  .cmpLable{
+    font-size: 19px;
+    font-weight: 900 !important;
+  }
+  
+  .ansClass{
+    font-size: 18px;
+  }
+}

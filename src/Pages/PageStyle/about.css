@@ -1,0 +1,13 @@
+.aboutContainer{
+    /* height : 100vh; */
+    margin-top: 100px;
+    color : white;
+}
+
+.infoClass{
+    width : 80vw;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
